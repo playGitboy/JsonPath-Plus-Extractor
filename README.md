@@ -3,19 +3,19 @@
 
 基于开源项目JSONPath Plus和json-viewer，使用语句测试如下(详情请查看帮助 https://jsonpath-plus.github.io/JSONPath/docs/ts/index.html)：
 ```
-| JSONPath                                  | 备注                                                 |
-|-------------------------------------------|------------------------------------------------------|
-| $..*                                      | 提取所有值                                           |
-| $..type                                   | 提取全部type字段值                                   |
-| $.uuids..type或者$.uuids[*].type          | 提取toppings节点下面全部type字段值                   |
-| $.uuids.*~                                | 提取uuids节点下面所有key名称                         |
-| $..*[?(@.str)][id,str]                    | 提取包含str字段的全部节点id和str字段值               |
-| $..*@number()                             | 提取全部数字值                                       |
-| $..*@string()                             | 提取全部文本                                         |
-| $..*[?(@.id>5005)].type                   | 提取id大于5005的全部type字段值                       |
-| $..toppings[1:3]                          | 提取toppings下面第2、3个节点                         |
-| $..toppings[1:9:2]                        | 从toppings下面第2节点开始在范围内每隔2个提取         |
-| $.toppings.*[?(@property.match(/^str/i))] | 提取toppings节点下面所有以"str"开头(正则)的key对应值 |
+| JSONPath                                  | 备注                                                 
+|-------------------------------------------|------------------------------------------------------
+| $..*                                      | 提取所有值                                           
+| $..type                                   | 提取全部type字段值                                   
+| $.uuids..type或者$.uuids[*].type          | 提取toppings节点下面全部type字段值                   
+| $.uuids.*~                                | 提取uuids节点下面所有key名称                         
+| $..*[?(@.str)][id,str]                    | 提取包含str字段的全部节点id和str字段值               
+| $..*@number()                             | 提取全部数字值                                       
+| $..*@string()                             | 提取全部文本                                         
+| $..*[?(@.id>5005)].type                   | 提取id大于5005的全部type字段值                       
+| $..toppings[1:3]                          | 提取toppings下面第2、3个节点                         
+| $..toppings[1:9:2]                        | 从toppings下面第2节点开始在范围内每隔2个提取         
+| $.toppings.*[?(@property.match(/^str/i))] | 提取toppings节点下面所有以"str"开头(正则)的key对应值 
 ```
 
 说明：

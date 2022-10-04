@@ -1,7 +1,7 @@
 # JsonPath-Plus数据提取工具
 仿DevUtils(MAC平台)的JSON工具，Windows平台"UI界面操作/系统兼容性佳/便携离线/支持格式化、自动纠错、数据过滤提取"的JSON数据提取工具
 
-基于开源项目JSONPath Plus和json-viewer，使用语句测试如下(详情请查看帮助 https://jsonpath-plus.github.io/JSONPath/docs/ts/index.html)：
+基于开源项目JSONPath Plus和json-viewer，使用语句测试如下(详情请查看 ![帮助](https://jsonpath-plus.github.io/JSONPath/docs/ts/index.html))：
 ```
 | JSONPath                                  | 备注                                                 
 |-------------------------------------------|------------------------------------------------------
@@ -23,3 +23,7 @@
    富文本框支持JSON文件拖放打开(兼容常见文本格式)、按住Ctrl+滚轮 无极缩放字体大小
 2. 便利性增强：增加常用格式化、排序、缩进等功能；输入JSONPath时"$"字符可省略
 3. 容错增强：修复JSON格式常见错误(如"样例"JSON格式有误，纠错后可正确解析)
+
+![主界面](https://github.com/playGitboy/JsonPath-Tool/blob/main/img/%E4%B8%BB%E7%95%8C%E9%9D%A2.png)
+
+![使用演示](https://github.com/playGitboy/JsonPath-Tool/blob/main/img/%E6%BC%94%E7%A4%BA.gif)

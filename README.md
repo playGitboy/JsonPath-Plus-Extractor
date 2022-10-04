@@ -2,6 +2,7 @@
 仿DevUtils(MAC平台)的JSON工具，Windows平台"UI界面操作/系统兼容性佳/便携离线/支持格式化、自动纠错、数据过滤提取"的JSON数据提取工具
 
 基于开源项目JSONPath Plus和json-viewer，使用语句测试如下(详情请查看帮助 https://jsonpath-plus.github.io/JSONPath/docs/ts/index.html)：
+```
 | JSONPath                                  | 备注                                                 |
 |-------------------------------------------|------------------------------------------------------|
 | $..*                                      | 提取所有值                                           |
@@ -15,6 +16,7 @@
 | $..toppings[1:3]                          | 提取toppings下面第2、3个节点                         |
 | $..toppings[1:9:2]                        | 从toppings下面第2节点开始在范围内每隔2个提取         |
 | $.toppings.*[?(@property.match(/^str/i))] | 提取toppings节点下面所有以"str"开头(正则)的key对应值 |
+```
 
 说明：
 1. 功能增强：支持JSONPath Plus表达式(兼容JSONPath)，功能更强、例见上表；

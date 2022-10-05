@@ -1,5 +1,5 @@
 # JsonPath-Plus数据提取工具
-仿DevUtils(MAC平台)的JSON工具，Windows平台"UI界面操作/系统兼容性佳/便携离线/支持格式化、自动纠错、数据过滤提取"的JSON数据提取工具
+仿DevUtils的JSON工具，Windows平台"UI界面操作/系统兼容性佳/便携离线/支持格式化、自动纠错、数据过滤提取"的JSON数据提取工具
 
 基于开源项目JSONPath Plus和json-viewer，使用语句测试如下([ 完整帮助文档 ](https://jsonpath-plus.github.io/JSONPath/docs/ts/index.html))：
 ```

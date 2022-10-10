@@ -25,6 +25,6 @@
    右下角编辑框不输入内容直接回车，可快捷触发格式化功能  
 3. 容错增强：修复JSON格式常见错误(如"样例"JSON格式有误，纠错后可正确解析)  
 
-![主界面](https://github.com/playGitboy/JsonPath-Tool/blob/main/img/%E4%B8%BB%E7%95%8C%E9%9D%A2.png)
+![主界面](https://github.com/playGitboy/JsonPath-Tool/blob/main/img/1.3.png)
 
 ![使用演示](https://github.com/playGitboy/JsonPath-Tool/blob/main/img/%E6%BC%94%E7%A4%BA.gif)
